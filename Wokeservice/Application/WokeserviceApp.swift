@@ -10,7 +10,7 @@ struct WokeserviceApp: App {
 
     var body: some Scene {
         WindowGroup {
-            SplashView()
+            MoreView()
         }
     }
 }
