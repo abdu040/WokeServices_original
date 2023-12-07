@@ -2,7 +2,7 @@ import SwiftUI
 
 struct SigninView: View {
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    @State private var groupfourText: String = ""
+    @State private var groupfiftyeightText: String = ""
     var body: some View {
         VStack {
             VStack {
@@ -41,7 +41,7 @@ struct SigninView: View {
                         .padding(.top, getRelativeHeight(10.0))
                         .padding(.horizontal, getRelativeWidth(39.0))
                     HStack {
-                        TextField(StringConstants.kLblEmail, text: $groupfourText)
+                        TextField(StringConstants.kLblEmail, text: $groupfiftyeightText)
                             .font(FontScheme.kPoppinsRegular(size: getRelativeHeight(12.0)))
                             .foregroundColor(ColorConstants.Gray500)
                             .padding()
